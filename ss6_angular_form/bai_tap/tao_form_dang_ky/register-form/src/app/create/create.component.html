@@ -1,0 +1,48 @@
+
+<div class="container">
+  <h1>CREATE </h1>
+  <div class="col-5">
+    <form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          formControlName="email"
+          type="text" class="form-control" id="email" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          formControlName="password"
+          type="text" class="form-control" id="password" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          formControlName="confirmPassword"
+          type="text" class="form-control" id="confirmPassword" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label>Country</label>
+        <select formControlName="country">
+          <option selected value="">SELECT COUNTRY</option>
+          <option *ngFor="let i of countries" [ngValue]="i">{{i}}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input
+          formControlName="age"
+          type="text" class="form-control" id="age" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label>Gender</label><br>
+        <input type="radio" value="Male" formControlName="gender">Male
+        <input type="radio" value="Female" formControlName="gender">Female
+      </div>
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+
