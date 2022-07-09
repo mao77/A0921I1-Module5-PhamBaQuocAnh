@@ -1,0 +1,9 @@
+<h1>Translate Application</h1>
+<table>
+  <tr>word</tr>
+  <tr *ngFor="let item of words">
+    <td>{{item.word}}</td>
+    <td><button [routerLink]="['/translate',item.id]">Translate</button></td>
+  </tr>
+</table>
+
