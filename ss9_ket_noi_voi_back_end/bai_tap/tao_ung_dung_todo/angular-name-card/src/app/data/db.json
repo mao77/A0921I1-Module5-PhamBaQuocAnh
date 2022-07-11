@@ -1,0 +1,21 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "content": "đi làm",
+      "complete": true
+    },{
+      "id": 2,
+      "content": "đi học",
+      "complete": true
+    },{
+      "id": 3,
+      "content": "đi chơi",
+      "complete": true
+    },{
+      "id": 4,
+      "content": "đi bụi",
+      "complete": true
+    }
+  ]
+}
