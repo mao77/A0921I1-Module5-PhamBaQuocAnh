@@ -1,0 +1,78 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "name": "keng",
+      "dateOfBirth": "2022-07-21",
+      "gender": "male",
+      "idCard": "123456777",
+      "phoneNumber": "0999888678",
+      "email": "keng@gmail.com",
+      "address": "Hà Nội",
+      "customerType": {
+        "id": 4,
+        "name": "Silver"
+      }
+    },
+    {
+      "id": "2",
+      "name": "mom",
+      "email": "mom@gmail.com",
+      "dateOfBirth": "1990-07-29",
+      "gender": "female",
+      "idCard": "456444556",
+      "phoneNumber": "090876789",
+      "address": "Hải Phòng",
+      "customerType": {
+        "id": 4,
+        "name": "Silver"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ni",
+      "email": "ni@gmail.com",
+      "dateOfBirth": "2005-11-01",
+      "gender": "female",
+      "idCard": "123111000",
+      "phoneNumber": "0128123123",
+      "address": "Hcm",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    },
+    {
+      "id": 4,
+      "name": "dương",
+      "email": "duong@gmail.com",
+      "dateOfBirth": "2022-07-27",
+      "gender": "male",
+      "idCard": "123456777",
+      "phoneNumber": "0898767898",
+      "address": "thanh hóa",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      }
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Platinum"
+    },
+    {
+      "id": 2,
+      "name": "Diamond"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    }
+  ]
+}
