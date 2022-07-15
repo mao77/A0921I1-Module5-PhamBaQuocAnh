@@ -2,16 +2,16 @@
   "customer": [
     {
       "id": 1,
-      "name": "Bơ",
-      "email": "bo@gmail.com",
-      "dateOfBirth": "2000-11-14",
-      "gender": "male",
+      "name": "Dung",
+      "email": "dung@gmail.com",
+      "dateOfBirth": "2005-11-01",
+      "gender": "female",
       "idCard": "123111000",
       "phoneNumber": "0128123123",
-      "address": "Đà Nẵng",
+      "address": "Hà Nội",
       "customerType": {
-        "id": 1,
-        "name": "Platinum"
+        "id": 2,
+        "name": "Diamond"
       }
     },
     {
@@ -38,60 +38,18 @@
       "phoneNumber": "0128123123",
       "address": "Hcm",
       "customerType": {
-        "id": 1,
-        "name": "Platinum"
+        "id": 3,
+        "name": "Gold"
       }
     },
     {
       "id": 4,
       "name": "vân",
+      "email": "van@gmail.com",
       "dateOfBirth": "2022-07-06",
       "gender": "female",
       "idCard": "12376767",
       "phoneNumber": "321567",
-      "email": "van@gmail.com",
-      "address": "Quảng Nam",
-      "customerType": {
-        "id": 2,
-        "name": "Diamond"
-      }
-    },
-    {
-      "id": 5,
-      "name": "dương",
-      "dateOfBirth": "2022-07-12",
-      "gender": "male",
-      "idCard": "7655432",
-      "phoneNumber": "9876543",
-      "email": "duong@gmail.com",
-      "address": "Đà Nẵng",
-      "customerType": {
-        "id": 3,
-        "name": "Gold"
-      }
-    },
-    {
-      "id": 6,
-      "name": "rôn",
-      "dateOfBirth": "2022-07-05",
-      "gender": "male",
-      "idCard": "76543",
-      "phoneNumber": "39876543",
-      "email": "ron@gmail.com",
-      "address": "Đà Nẵng",
-      "customerType": {
-        "id": 3,
-        "name": "Gold"
-      }
-    },
-    {
-      "id": 7,
-      "name": "kiên",
-      "dateOfBirth": "2001-02-23",
-      "gender": "male",
-      "idCard": "75644332",
-      "phoneNumber": "65432",
-      "email": "kien@gmail.com",
       "address": "Quảng Nam",
       "customerType": {
         "id": 1,
@@ -99,17 +57,31 @@
       }
     },
     {
-      "id": 8,
-      "name": "Phương",
-      "email": "phuong2000@gmail.com",
-      "dateOfBirth": "2000-12-02",
-      "gender": "female",
-      "idCard": "876543",
-      "phoneNumber": "876543",
-      "address": "Quảng Nam",
+      "id": 5,
+      "name": "huy",
+      "email": "huy@gmail.com",
+      "dateOfBirth": "2022-06-29",
+      "gender": "male",
+      "idCard": "653423",
+      "phoneNumber": "76543",
+      "address": "Đà Nẵng",
       "customerType": {
-        "id": 2,
-        "name": "Diamond"
+        "id": 4,
+        "name": "Silver"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Miên",
+      "email": "mien@gmail.com",
+      "dateOfBirth": "2022-06-27",
+      "gender": "female",
+      "idCard": "98i765432",
+      "phoneNumber": "09876543",
+      "address": "Gia Lai",
+      "customerType": {
+        "id": 1,
+        "name": "Platinum"
       }
     }
   ],
